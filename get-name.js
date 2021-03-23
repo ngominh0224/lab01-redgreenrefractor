@@ -1,5 +1,5 @@
-const getName = (thing) => {
-  return thing.name;
-}; //this is bracket notation for objects
+const getName = ({ name }) => {
+  return name;
+};
 
 module.exports = getName;
